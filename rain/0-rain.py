@@ -14,6 +14,7 @@ Example:
     6
 """
 
+
 def rain(walls):
     """
     Calculate the total units of rainwater retained after raining.
@@ -25,8 +26,8 @@ def rain(walls):
     minus the height of the wall at that index.
 
     Args:
-        walls (list of int): List of non-negative integers representing wall heights.
-                             An empty list returns 0.
+        walls (list of int): List of non-negative integers representing wall
+                             heights. An empty list returns 0.
 
     Returns:
         int: Total units of water retained between the walls.
